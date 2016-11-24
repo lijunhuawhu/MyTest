@@ -1,16 +1,5 @@
-aaaaaaaaaaaaaa
-1111111111111kkkkkkkkkk
-222222222222
-3333333333333
-aaaaaaaaaaaa
-44444bbbbbbbbb4jjjjjjjjj444444jjjjjjjjjjjjj
-5555555555
-eeeeee
-33333333333fffffff334444444444
-55555555
-6666666
-
-
-123
-bbbbbb
-hhhh
+    public final static String COMMENTS_URL2            = i("/2/data/v1/get_new_comments/");
+    public final static String TAB_COMMENTS_URL_V2      = i("/article/v2/tab_comments/"); //三种文章详情页的新评论样式，
+    public final static String TAB_COMMENTS_URL_V1      = i("/article/v1/tab_comments/"); //三种文章详情页的旧评论样式，问答详情页评论列表
+    public final static String POST_URL2                = i("/2/data/v3/post_message/"); //文章详情页新评论样式发评论
+    public final static String POST_URL1                = i("/2/data/post_message/"); //文章详情页旧评论样式发评论
